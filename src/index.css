@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.fontStyle {
+  @apply font-['IBM_Plex_Sans',_sans-serif];
+}
+
+.form {
+  @apply outline-none w-full border-2 disabled:bg-red-500 border-black rounded duration-300 px-2 py-2 focus:shadow-[3px_4px_rgb(0,_0,_0)] focus:-translate-x-1 focus:-translate-y-1;
+}
+
+.btn {
+  @apply py-2 text-center w-full bg-black text-white rounded-lg;
+}
+
+.dynamicEffect {
+  @apply relative after:content-[''] after:w-full after:h-full after:top-0 after:left-0 after:absolute after:bg-inherit z-[20] after:rounded-lg after:z-[-1] after:opacity-[1] hover:after:opacity-0 hover:after:scale-[1.2] after:duration-300;
+}

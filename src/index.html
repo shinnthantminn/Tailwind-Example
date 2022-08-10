@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../dist/output.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container h-screen mx-auto">
+      <div
+        class="lg:w-[50%] lg:mx-auto lg:flex lg:justify-center lg:items-center px-10 sm:px-0 pt-10"
+      >
+        <div class="lg:w-[50%] lg:mx-auto">
+          <h1 class="fontStyle font-semibold mb-5 text-3xl">Welcome back</h1>
+          <form class="h-[300px] space-y-5">
+            <div>
+              <input
+                type="text"
+                name=""
+                id=""
+                placeholder="Enter your email"
+                class="form"
+              />
+            </div>
+            <div>
+              <input
+                type="text"
+                class="form"
+                placeholder="Password"
+                name=""
+                id=""
+              />
+            </div>
+            <div class="font-bold flex justify-between">
+              <div class="flex items-center space-x-2">
+                <input type="checkbox" id="rm" />
+                <label for="rm">remember me</label>
+              </div>
+              <div>
+                <a href="#">Forgot password</a>
+              </div>
+            </div>
+
+            <button class="btn dynamicEffect">Sign in</button>
+            <button class="btn !bg-white !border-2 !border-black !text-black">
+              <i class="fa-brands fa-google"></i>
+              Sign in with Google
+            </button>
+            <p class="text-center">
+              Don't any have an account?
+
+              <span class="font-[600] underline">Sign up</span>
+            </p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
