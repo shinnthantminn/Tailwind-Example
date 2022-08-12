@@ -5,5 +5,5 @@
 @tailwind utilities;
 
 .main {
-  @apply px-8 py-8 rounded-lg shadow-lg  border;
+  @apply px-8 py-8 rounded-lg shadow-lg  border ;
 }
